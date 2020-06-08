@@ -1,0 +1,56 @@
+
+<DOCTYPE html>
+	<html>
+	<head>
+		<title>
+			Lab1
+		</title>
+		<link rel="stylesheet" type="text/css" href="csslab1.css">
+	</head>
+	<body>
+		<h1>Lab 1 Survery</h1>
+		<h5>What do you think about the User Interface of <a href="https://www.google.ca">Google</a>?<br>
+		<a href="https://www.google.ca"><img src="lab1pic.png" alt="Google" width="400" height="200"></a>
+		<form>
+			<label for="fname">Name:</label>
+			<input id="fname" name="fname"><br>
+
+			Have you used this site before?<br>
+			<input type="radio" id="yes" name="used" value="yes">
+			<label for="yes">Yes</label><br>
+			<input type="radio" id="no" name="used" value="no">
+			<label for0"no">No</label><br>
+
+
+			<label for="Color">What do you think the background color of this page should be?</label>
+			<select id="Color" name="Color">
+				<option value="red">Red</option>
+				<option value="blue">Blue</option>
+				<option value="yellow">Yellow</option>
+				<option value="white">White</option>
+			</select><br>
+
+			<label for="engines">Which search engines have you used?<br></label>
+			<select id="engines" name="engines" size="4" multiple>
+				<option value="Google">Google</option>
+				<option value="Yahoo">Yahoo</option>
+				<option value="Bing">Bing</option>
+				<option value="AOL">AOL</option>
+			</select><br>
+
+			<label for="rating">On a scale of one to ten, with ten being the highest, how would you rate Google's User Interface? <br></label>
+			1<input type="range" id="rating" name="rating" min="1" max="10">10<br>
+
+			<textarea name="comments" rows="20" cols="40">What are your thoughts on the User Interface of Google?</textarea>
+			<br>
+
+
+
+
+			<input type="Submit">
+		</form>
+		<footer>
+			<p>Website designed by Linyang Zhang<br>
+	</body>
+	</html>
+</DOCTYPE>
